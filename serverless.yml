@@ -1,0 +1,11 @@
+component: website
+name: youxint-class-demo-tencent
+app: youxint-classboard-demo-tencent-d90eeaa3
+
+inputs:
+  src:
+    src: ./src
+    hook: npm run build
+    dist: ./dist
+  bucketName: youxint-class-demo-tencent-01
+  protocol: https
