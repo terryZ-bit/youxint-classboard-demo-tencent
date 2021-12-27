@@ -54,6 +54,7 @@ export default {
             console.log(error)
             this.$message.error('登录错误，请检查用户名和密码')
             this.$data.login_btn_load=false
+            this.login_btn_bool = false
           })
     },
   }
